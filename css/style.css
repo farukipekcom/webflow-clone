@@ -91,7 +91,7 @@ body {
   background-color: rgba(67, 83, 255, 0.14);
 }
 
-.hero .header-hero {
+.hero {
   margin-top: 32px;
 }
 
@@ -192,7 +192,172 @@ body {
           justify-content: space-between;
 }
 
+.hero .hero-logos .container ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .hero .hero-logos .container ul li a img {
-  height: 26px;
+  height: 24px;
+}
+
+.first-section {
+  margin-top: 86px;
+}
+
+.first-section .section .container {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f8dbd7), to(#fff2e1));
+  background-image: linear-gradient(to right bottom, #f8dbd7, #fff2e1);
+  padding: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.first-section .section .container .left {
+  max-width: 350px;
+}
+
+.first-section .section .container .left .heading {
+  font-size: 80px;
+  line-height: 1.2;
+}
+
+.first-section .section .container .left .sub_heading {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.first-section .section .container .left .quote {
+  margin-top: 86px;
+  height: 350px;
+  padding: 32px;
+  background-color: #fff;
+}
+
+.first-section .section .container .left .quote img {
+  height: 25px;
+}
+
+.first-section .section .container .left .quote .quote_text {
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.first-section .section .container .left .quote .quote_profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 36px;
+}
+
+.first-section .section .container .left .quote .quote_profile img {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+.first-section .section .container .left .quote .quote_profile .profile_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 16px;
+}
+
+.first-section .section .container .left .quote .quote_profile .profile_info span {
+  line-height: 1.5;
+}
+
+.first-section .section .container .right {
+  margin-left: 64px;
+}
+
+.first-section .section .container .right img {
+  width: 100%;
+}
+
+.first-section .section .container .right .features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+}
+
+.first-section .section .container .right .features .feature {
+  width: 100%;
+  margin-left: 24px;
+}
+
+.first-section .section .container .right .features .feature:first-child {
+  margin-left: 0px;
+}
+
+.first-section .section .container .right .features .feature .feature_title {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.first-section .section .container .right .features .feature .feature_desc {
+  margin-top: 14px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.first-section .section .container .right .features .feature span {
+  border-bottom: 1px solid #000;
+}
+
+.first-section .sub_section {
+  width: 1280px;
+  margin: 0 auto;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#f8dbd7), to(#fff2e1));
+  background-image: linear-gradient(to right bottom, #f8dbd7, #fff2e1);
+}
+
+.first-section .sub_section .container {
+  height: 60px;
+  background-color: rgba(178, 102, 54, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.first-section .sub_section .container span {
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.first-section .sub_section .container:hover {
+  background-color: rgba(178, 102, 54, 0.3);
+}
+
+.first-section .sub_section .container img {
+  height: 11px;
+  margin-left: 12px;
 }
 /*# sourceMappingURL=style.css.map */
