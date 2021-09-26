@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 48px;
+}
+
+.header .container {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .container .logo {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .container nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .container nav ul li {
+  background-color: rgba(67, 83, 255, 0.1);
+  padding: 18px 24px;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.header .container nav ul li a {
+  color: #4353ff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header .container nav ul li a span {
+  font-weight: 400;
+}
+
+.header .container nav ul li:first-child {
+  background-color: transparent;
+}
+
+.header .container nav ul li:first-child:hover {
+  background-color: rgba(67, 83, 255, 0.1);
+}
+
+.header .container nav ul li:hover {
+  background-color: rgba(67, 83, 255, 0.14);
+}
+/*# sourceMappingURL=style.css.map */
