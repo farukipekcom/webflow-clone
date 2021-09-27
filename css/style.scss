@@ -18,7 +18,10 @@
 //   width: 500px;
 //   line-height: 1.6;
 // }
-
+::selection {
+  background-color: rgb(67, 83, 255);
+  color: white;
+}
 * {
   padding: 0;
   margin: 0;
@@ -304,7 +307,6 @@ body {
     }
   }
 }
-
 .third {
   .section {
     .container {
