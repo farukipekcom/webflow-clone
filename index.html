@@ -6,10 +6,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
     <title>Webflow</title>
 </head>
 
 <body>
+    <div class="sticky_menu">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo-white.svg" alt="">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="dropdown item"><a href="#">Product<img src="img/menu_down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                                <div class="dropdown_heading">
+                                    BUILD
+                                </div>
+                                <ul>
+                                    <li><a href="#">Designer</a></li>
+                                    <li><a href="#">CMS</a></li>
+                                    <li><a href="#">Ecommerce</a></li>
+                                    <li><a href="#">Interactions</a></li>
+                                </ul>
+                                <div class="dropdown_heading">
+                                    LAUNCH
+                                </div>
+                                <ul>
+                                    <li><a href="#">Hosting</a></li>
+                                </ul>
+                                <div class="dropdown_heading">
+                                    GROW
+                                </div>
+                                <ul>
+                                    <li><a href="#">Editor</a></li>
+                                    <li><a href="#">SEO</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown item"><a href="#">Case studies<img src="img/menu_down.svg" alt=""></a>
+                            <div class="dropdown-content">
+                                <div class="dropdown_heading">
+                                    FEATURED
+                                </div>
+                                <ul>
+                                    <li><a href="#">Lattice</a></li>
+                                    <li><a href="#">Getaround</a></li>
+                                    <li><a href="#">Rakuten</a></li>
+                                    <li><a href="#">Dell</a></li>
+                                    <li><a href="#">HelloSign</a></li>
+                                    <li><a href="#">All case studies</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="dropdown item"><a href="#">Resources<img src="img/menu_down.svg" alt=""></a>
+                            <div class="dropdown-content" style="width: 270px">
+                                <ul>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Templates</a></li>
+                                    <li><a href="#">Community</a></li>
+                                    <li><a href="#">Showcase</a></li>
+                                </ul>
+                                <div class="dropdown_heading">
+                                    WEBFLOW UNIVERSITY
+                                </div>
+                                <ul>
+                                    <li><a href="#">Webflow 101 crash course</a></li>
+                                    <li><a href="#">Building a business website</a></li>
+                                    <li><a href="#">Webflow Ecommerce</a></li>
+                                    <li><a href="#">All courses</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="item"><a href="#">Enterprise</a></li>
+                        <li class="item"><a href="#">Hire an Expert</a></li>
+                    </ul>
+                </nav>
+                <div class="buttons">
+                    <ul>
+                        <li><a href="#" class="login">Log in</a></li>
+                        <li><a href="#" class="get_started">Get started <span>— it's free</span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
     <header class="header">
         <div class="container">
             <div class="logo">
@@ -367,6 +453,19 @@
             <div class="container">© 2021 Webflow, Inc. All rights reserved.</div>
         </div>
     </div>
+    <script>
+
+
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(document).scrollTop() > 1) {
+                    $(".sticky_menu").css("display", "block");
+                } else {
+                    $(".sticky_menu").css("display", "none");
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
