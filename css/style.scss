@@ -159,12 +159,12 @@ body {
     }
   }
 }
-.first-section {
+.sections {
+  width: 1280px;
+  margin: 0 auto;
   margin-top: 86px;
-
   .section {
     .container {
-      background-image: linear-gradient(to right bottom, #f8dbd7, #fff2e1);
       padding: 64px;
       display: flex;
       .left {
@@ -178,6 +178,9 @@ body {
           line-height: 1.5;
           font-weight: 500;
           margin-top: 10px;
+          span {
+            border-bottom: 1px solid black;
+          }
         }
         .quote {
           margin-top: 86px;
@@ -246,13 +249,12 @@ body {
       }
     }
   }
+
   .sub_section {
     width: 1280px;
     margin: 0 auto;
-    background-image: linear-gradient(to right bottom, #f8dbd7, #fff2e1);
     .container {
       height: 60px;
-      background-color: rgba(178, 102, 54, 0.2);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -262,12 +264,59 @@ body {
         font-weight: 400;
         margin-left: 5px;
       }
-      &:hover {
-        background-color: rgba(178, 102, 54, 0.3);
-      }
       img {
         height: 11px;
         margin-left: 12px;
+      }
+    }
+  }
+}
+
+.first {
+  .section {
+    .container {
+      background-image: linear-gradient(135deg, #f8dbd7, #fff2e1);
+    }
+  }
+  .sub_section {
+    background-image: linear-gradient(135deg, #f8dbd7, #fff2e1);
+    .container {
+      background-color: rgba(178, 102, 54, 0.2);
+      &:hover {
+        background-color: rgba(178, 102, 54, 0.3);
+      }
+    }
+  }
+}
+.second {
+  .section {
+    .container {
+      background-image: linear-gradient(135deg, #fedfe7, #e8e5f3);
+    }
+  }
+  .sub_section {
+    background-image: linear-gradient(135deg, #fedfe7, #e8e5f3);
+    .container {
+      background-color: rgba(180, 113, 168, 0.25);
+      &:hover {
+        background-color: rgba(180, 113, 168, 0.35);
+      }
+    }
+  }
+}
+
+.third {
+  .section {
+    .container {
+      background-image: linear-gradient(135deg, #cee9e2, #edf0e9);
+    }
+  }
+  .sub_section {
+    background-image: linear-gradient(135deg, #cee9e2, #edf0e9);
+    .container {
+      background-color: rgba(69, 165, 135, 0.25);
+      &:hover {
+        background-color: rgba(69, 165, 135, 0.35);
       }
     }
   }
