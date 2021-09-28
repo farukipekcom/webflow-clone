@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to Webflow Clone 👋</h1>
 
-I have redesigned the **Webflow** website as Html & Css.
+I redesigned the **Webflow** website as Html & Css.
 
 ### ✨ [Demo](https://webflow-clone-farukipekcom.vercel.app/)
 
